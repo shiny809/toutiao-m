@@ -8,9 +8,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^1.7.2",
     "core-js": "^3.8.3",
+    "cropperjs": "^1.6.2",
+    "dayjs": "^1.11.12",
+    "json-bigint": "^1.0.0",
+    "lodash": "^4.17.21",
+    "vant": "2",
     "vue": "^2.6.14",
-    "vue-router": "^3.5.1",
+    "vue-router": "3.6.5",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
@@ -30,6 +37,7 @@
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
     "lint-staged": "^11.1.2",
+    "postcss-pxtorem": "^6.1.0",
     "vue-template-compiler": "^2.6.14"
   },
   "gitHooks": {

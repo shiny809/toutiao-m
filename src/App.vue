@@ -1,6 +1,6 @@
+
 <template>
   <div id="app">
-    <h1>黑马头条</h1>
     <!-- 路由出口 -->
     <router-view />
   </div>
@@ -8,8 +8,15 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  
+
 }
 </script>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+p {
+  width: 375px;
+  background-color: red;
+}
+</style>

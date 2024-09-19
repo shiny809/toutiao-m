@@ -73,16 +73,3 @@
 .toutiao-shouji:before {
   content: "\e605";
 }
-body {
-  background-color: #F5F7F9;
-}
-div.page-nav-bar {
-  position: fixed;
-  width: 100%;
-  height: 96px;
-  background-color: #3296fa;
-}
-div.page-nav-bar .van-nav-bar__title,
-div.page-nav-bar .van-icon {
-  color: #fff;
-}
